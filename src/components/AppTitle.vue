@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: AppTitle,
+  name: "AppTitle",
   data() {
     return {
       title: "La mia prima app con Vite!",
@@ -8,12 +8,17 @@ export default {
   },
 };
 </script>
+
 <template>
   <header>
     <h1>{{ title }}</h1>
   </header>
 </template>
+
 <style scoped>
+header {
+  text-align: center;
+}
 h1 {
   color: red;
 }
