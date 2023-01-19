@@ -16,7 +16,7 @@ export default {
 
 <template>
   <figure>
-    <img :src="this.buildImageUrl" alt="banner image" />
+    <img :src="buildImageUrl" alt="banner image" />
   </figure>
 </template>
 
