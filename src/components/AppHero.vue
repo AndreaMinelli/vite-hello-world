@@ -8,7 +8,7 @@ export default {
   },
   computed: {
     buildImageUrl() {
-      return new URL(`./img/${this.image}`, import.meta.url).href;
+      return new URL(`../assets/img/${this.image}`, import.meta.url).href;
     },
   },
 };
